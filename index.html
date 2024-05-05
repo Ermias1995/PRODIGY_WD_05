@@ -12,16 +12,18 @@
 </head>
 <body>
     <div class="container">
-        <form>
+        <form class="form">
             <input type="text" class="cityInput" placeholder="Enter city"/>
             <button type="submit"><i class="fas fa-search"></i></button>
         </form>
-        <h1 class="cityDisplay">City</h1>
-        <p class="tempDisplay">20C</p>
-        <p class="humidityDisplay">Humidity: 50%</p>
-        <p class="descDisplay">Clear skies</p>
-        <p class="weatherEmoji">☀</p>
-        <p class="errorDisplay">Please enter a city</p>
+        <div id="card" style="display: none;">
+            <h1 class="cityDisplay">City</h1>
+            <p class="tempDisplay">20C</p>
+            <p class="humidityDisplay">Humidity: 50%</p>
+            <p class="descDisplay">Clear skies</p>
+            <p class="weatherEmoji">☀</p>
+            <p class="errorDisplay">Please enter a city</p>
+        </div>
     </div>
 </body>
 <script src="index.js"></script>

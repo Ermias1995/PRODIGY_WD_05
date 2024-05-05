@@ -19,9 +19,13 @@ body{
     margin-top: 100px;
     background:linear-gradient(rgb(35, 179, 236,0.6),rgb(236, 240, 6,0.6),rgba(245, 113, 5, 0.6));
     padding-top: 20px;
-    width: 300px;
-    height: 400px;
     border-radius: 5px;
+}
+#card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .container form input{
     font-size: larger;
@@ -41,4 +45,30 @@ body{
 .container form button:active{
     background-color: rgb(248, 249, 250);
     color: rgb(100, 193, 255);
+}
+.cityDisplay, .tempDisplay{
+    font-size: 3rem;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 25px;
+}
+.humidityDisplay{
+    font-size: 2rem;
+    color: black;
+    margin-bottom: 25px;
+}
+.descDisplay{
+    font-size: 1.5rem;
+    color: black;
+    margin-bottom: 25px;
+}
+.weatherEmoji{
+    margin: 0;
+    font-size: 7.2rem;
+    font-weight: bold;
+}
+.errorDisplay{
+    font-size:2rem;
+    font-weight: bold;
+    color: black;
 }

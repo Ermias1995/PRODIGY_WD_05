@@ -20,6 +20,7 @@ body{
     background:linear-gradient(rgb(35, 179, 236,0.6),rgb(236, 240, 6,0.6),rgba(245, 113, 5, 0.6));
     padding-top: 20px;
     border-radius: 5px;
+    width: 500px;
 }
 #card{
     display: flex;
@@ -49,7 +50,7 @@ body{
 .cityDisplay, .tempDisplay{
     font-size: 3rem;
     font-weight: bold;
-    color: black;
+    color: white;
     margin-bottom: 25px;
 }
 .humidityDisplay{

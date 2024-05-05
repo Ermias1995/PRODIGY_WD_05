@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url('https://imgix.brilliant-ethiopia.com/Simiens-kib-13.jpg?auto=format,enhance,compress&fit=crop&crop=entropy,faces,focalpoint&w=1880&h=740&q=30');
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+    margin:0 auto;
+    margin-top: 100px;
+    background:linear-gradient(rgb(35, 179, 236,0.6),rgb(236, 240, 6,0.6),rgba(245, 113, 5, 0.6));
+    padding-top: 20px;
+    width: 300px;
+    height: 400px;
+    border-radius: 5px;
+}
+.container form input{
+    font-size: larger;
+}
+.container form button{
+    font-size: larger;
+    background-color: rgb(94, 183, 243);
+    padding: 5px 10px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.container form button:hover{
+    background-color:rgb(100, 193, 255) ;
+}
+.container form button:active{
+    background-color: rgb(248, 249, 250);
+    color: rgb(100, 193, 255);
+}
